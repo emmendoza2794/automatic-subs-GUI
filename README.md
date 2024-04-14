@@ -6,6 +6,8 @@ This project automatically generates subtitles for any mp4 video, for this the f
 - Pillow (https://python-pillow.org/)
 - FFmpeg (https://ffmpeg.org/)
 
+![Dashboard](https://raw.githubusercontent.com/emmendoza2794/automatic-subs-GUI/main/assets/img_demo.png)
+
 🗂 Its operation is simple, the entire graphical interface is on **Streamlit**, with **FFmpeg** we extract the audio from 
 the video, we pass it through **Fast-whisper** to convert the audio to text, with **Pillow** we generate the png images 
 with the subtitles and the available configurations, and lastly step we superimpose the images on the video 
