@@ -13,6 +13,12 @@ the video, we pass it through **Fast-whisper** to convert the audio to text, wit
 with the subtitles and the available configurations, and lastly step we superimpose the images on the video 
 at the indicated time with **FFmpeg**
 
+
+
+https://github.com/emmendoza2794/automatic-subs-GUI/assets/24445416/7cc7dabf-422c-4541-865c-276f17648b9b
+
+
+
 ## 🚨Prerequisites🚨
 - CUDA compatibility
 - have FFmpeg installed
