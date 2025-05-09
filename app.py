@@ -33,7 +33,7 @@ def generate_video_subs():
 
         subprocess.run(ffmpeg_command)
 
-    with st.spinner(f'generating substitutes...'):
+    with st.spinner(f'generating substitutes... test'):
 
         if st.session_state.subtitle_length == "Automatic":
             text_subs = GenerateSubtitles().generate_automatic()
