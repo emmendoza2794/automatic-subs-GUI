@@ -81,7 +81,7 @@ def generate_text_preview():
 
 
 st.set_page_config(
-    page_title="Automatic Subs GUI test",
+    page_title="Automatic Subs GUI",
     page_icon="👋",
     layout="wide",
     initial_sidebar_state="expanded",
